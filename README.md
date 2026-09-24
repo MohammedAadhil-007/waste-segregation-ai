@@ -569,6 +569,14 @@ inside the `frontend` directory.
 - Deploy the complete system to the cloud
 
 ---
+# Model Training
+
+The model was trained and evaluated using Google Colab.
+
+**Training Notebook:**  
+[View Google Colab Notebook](https://colab.research.google.com/drive/1QDyO-hI3yTY6EBNslbfRmI2MBtYJufw_?usp=sharing)
+
+---
 
 # Deployment
 
