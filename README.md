@@ -1,3 +1,16 @@
+## Live Demo
+
+**Frontend:**  
+[https://waste-segregation-ai-frontend.vercel.app/](https://waste-segregation-ai-frontend.vercel.app/)
+
+**Backend:**  
+[https://waste-segregation-ai-tig8.onrender.com/](https://waste-segregation-ai-tig8.onrender.com/)
+
+> Note: Since the backend was deployed on **free version of Render** it will take a minute to awake the backend server for the first request, then it will be active and give instant response to all other requests
+.
+
+---
+
 # Waste Segregation AI
 
 An AI-powered web application that classifies waste images into three categories:
@@ -128,7 +141,7 @@ The dataset was created using two sources.
 
 ### Dry and Wet Waste
 
-The Kaggle **Waste Classification Data** dataset was used as the primary source for Dry and Wet waste.
+The Kaggle **Waste Classification Data** dataset was used as the primary source for Dry and Wet waste.  https://www.kaggle.com/datasets/techsash/waste-classification-data
 
 Selected images:
 
@@ -137,7 +150,7 @@ Selected images:
 
 ### Mixed Waste
 
-Images from the **TU Wien Smart Trash Can dataset** were used to create the Mixed Waste class.
+Images from the **TU Wien Smart Trash Can dataset** were used to create the Mixed Waste class. https://researchdata.tuwien.ac.at/records/27k90-dvw73
 
 Selected images:
 
@@ -178,8 +191,6 @@ Training images were augmented using techniques such as:
 - Brightness adjustment
 - Contrast adjustment
 - Zooming
-
-> **Note:** The final model was trained without `mobilenet_v2.preprocess_input`, so this preprocessing function is not applied during inference.
 
 ---
 
@@ -254,7 +265,7 @@ npm --version
 ## 1. Clone the Repository
 
 ```bash
-git clone [<YOUR_GITHUB_REPOSITORY_URL>](https://github.com/MohammedAadhil-007/waste-segregation-ai.git)
+git clone https://github.com/MohammedAadhil-007/waste-segregation-ai.git
 cd waste-segregation-ai
 ```
 
@@ -561,10 +572,18 @@ inside the `frontend` directory.
 - Deploy the complete system to the cloud
 
 ---
+# Model Training
+
+The model was trained and evaluated using Google Colab.
+
+**Training Notebook:**  
+[View Google Colab Notebook](https://colab.research.google.com/drive/1QDyO-hI3yTY6EBNslbfRmI2MBtYJufw_?usp=sharing)
+
+---
 
 # Deployment
 
-The frontend can be deployed using **Vercel**, while the FastAPI backend can be deployed separately.
+The frontend is deployed using **Vercel**, while the FastAPI backend is deployed using **Render**.
 
 The general architecture is:
 
@@ -584,14 +603,6 @@ MobileNetV2
 ```
 
 After deployment, update the frontend API URL to point to the deployed backend.
-
-### Live Demo
-
-**Frontend:**  
-`<YOUR_VERCEL_URL>`
-
-**Backend:**  
-`<YOUR_BACKEND_URL>`
 
 ---
 
