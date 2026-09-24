@@ -588,10 +588,10 @@ After deployment, update the frontend API URL to point to the deployed backend.
 ### Live Demo
 
 **Frontend:**  
-`<YOUR_VERCEL_URL>`
+`https://waste-segregation-ai-frontend.vercel.app/`
 
 **Backend:**  
-`<YOUR_BACKEND_URL>`
+`[<YOUR_BACKEND_URL>](https://waste-segregation-ai-tig8.onrender.com)`
 
 ---
 
