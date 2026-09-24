@@ -254,7 +254,7 @@ npm --version
 ## 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone [<YOUR_GITHUB_REPOSITORY_URL>](https://github.com/MohammedAadhil-007/waste-segregation-ai.git)
 cd waste-segregation-ai
 ```
 
