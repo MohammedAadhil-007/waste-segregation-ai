@@ -6,6 +6,8 @@
 **Backend:**  
 [https://waste-segregation-ai-tig8.onrender.com/](https://waste-segregation-ai-tig8.onrender.com/)
 
+---
+
 # Waste Segregation AI
 
 An AI-powered web application that classifies waste images into three categories:
