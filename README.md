@@ -128,7 +128,7 @@ The dataset was created using two sources.
 
 ### Dry and Wet Waste
 
-The Kaggle **Waste Classification Data** dataset was used as the primary source for Dry and Wet waste. - https://www.kaggle.com/datasets/techsash/waste-classification-data
+The Kaggle **Waste Classification Data** dataset was used as the primary source for Dry and Wet waste.  https://www.kaggle.com/datasets/techsash/waste-classification-data
 
 Selected images:
 
@@ -137,7 +137,7 @@ Selected images:
 
 ### Mixed Waste
 
-Images from the **TU Wien Smart Trash Can dataset** were used to create the Mixed Waste class. -https://researchdata.tuwien.ac.at/records/27k90-dvw73
+Images from the **TU Wien Smart Trash Can dataset** were used to create the Mixed Waste class. https://researchdata.tuwien.ac.at/records/27k90-dvw73
 
 Selected images:
 
@@ -587,11 +587,13 @@ After deployment, update the frontend API URL to point to the deployed backend.
 
 ### Live Demo
 
+## Live Demo
+
 **Frontend:**  
-`https://waste-segregation-ai-frontend.vercel.app/`
+[https://waste-segregation-ai-frontend.vercel.app/](https://waste-segregation-ai-frontend.vercel.app/)
 
 **Backend:**  
-`https://waste-segregation-ai-tig8.onrender.com/`
+[https://waste-segregation-ai-tig8.onrender.com/](https://waste-segregation-ai-tig8.onrender.com/)
 
 ---
 
