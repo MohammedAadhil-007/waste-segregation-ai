@@ -369,6 +369,75 @@ Then open the frontend URL shown by Vite.
 
 ---
 
+# API
+
+The FastAPI backend provides the following endpoints.
+
+### `GET /`
+
+Checks whether the API is running.
+
+```text
+http://127.0.0.1:8000/
+```
+
+### `GET /health`
+
+Checks the backend and model status.
+
+```text
+http://127.0.0.1:8000/health
+```
+
+Example response:
+
+```json
+{
+  "status": "healthy",
+  "model": "MobileNetV2"
+}
+```
+
+### `POST /predict`
+
+Accepts a waste image and returns the classification result.
+
+Supported image types:
+
+- JPG / JPEG
+- PNG
+- WebP
+
+Example response:
+
+```json
+{
+  "prediction": "Dry Waste",
+  "confidence": 0.934,
+  "probabilities": {
+    "Dry Waste": 0.934,
+    "Wet Waste": 0.052,
+    "Mixed Waste": 0.014
+  }
+}
+```
+
+---
+
+## API Documentation
+
+FastAPI automatically provides interactive Swagger documentation.
+
+After starting the backend, open:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+You can test the `/predict` endpoint directly from the Swagger interface.
+
+---
+
 # Browser Storage
 
 The application uses browser storage to maintain the session.
@@ -536,5 +605,4 @@ B.Tech — Artificial Intelligence and Data Science
 
 ## License
 
-This project was developed as a rapid AI prototype for waste classification.#   w a s t e - s e g r e g a t i o n - a i  
- 
+This project was developed as a rapid AI prototype for waste classification.
