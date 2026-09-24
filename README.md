@@ -1,3 +1,13 @@
+### Live Demo
+
+## Live Demo
+
+**Frontend:**  
+[https://waste-segregation-ai-frontend.vercel.app/](https://waste-segregation-ai-frontend.vercel.app/)
+
+**Backend:**  
+[https://waste-segregation-ai-tig8.onrender.com/](https://waste-segregation-ai-tig8.onrender.com/)
+
 # Waste Segregation AI
 
 An AI-powered web application that classifies waste images into three categories:
@@ -178,8 +188,6 @@ Training images were augmented using techniques such as:
 - Brightness adjustment
 - Contrast adjustment
 - Zooming
-
-> **Note:** The final model was trained without `mobilenet_v2.preprocess_input`, so this preprocessing function is not applied during inference.
 
 ---
 
@@ -584,16 +592,6 @@ MobileNetV2
 ```
 
 After deployment, update the frontend API URL to point to the deployed backend.
-
-### Live Demo
-
-## Live Demo
-
-**Frontend:**  
-[https://waste-segregation-ai-frontend.vercel.app/](https://waste-segregation-ai-frontend.vercel.app/)
-
-**Backend:**  
-[https://waste-segregation-ai-tig8.onrender.com/](https://waste-segregation-ai-tig8.onrender.com/)
 
 ---
 
