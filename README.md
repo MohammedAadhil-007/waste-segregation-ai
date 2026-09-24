@@ -128,7 +128,7 @@ The dataset was created using two sources.
 
 ### Dry and Wet Waste
 
-The Kaggle **Waste Classification Data** dataset was used as the primary source for Dry and Wet waste.
+The Kaggle **Waste Classification Data** dataset was used as the primary source for Dry and Wet waste. - https://www.kaggle.com/datasets/techsash/waste-classification-data
 
 Selected images:
 
@@ -137,7 +137,7 @@ Selected images:
 
 ### Mixed Waste
 
-Images from the **TU Wien Smart Trash Can dataset** were used to create the Mixed Waste class.
+Images from the **TU Wien Smart Trash Can dataset** were used to create the Mixed Waste class. -https://researchdata.tuwien.ac.at/records/27k90-dvw73
 
 Selected images:
 
@@ -254,7 +254,7 @@ npm --version
 ## 1. Clone the Repository
 
 ```bash
-git clone [<YOUR_GITHUB_REPOSITORY_URL>](https://github.com/MohammedAadhil-007/waste-segregation-ai.git)
+git clone https://github.com/MohammedAadhil-007/waste-segregation-ai.git
 cd waste-segregation-ai
 ```
 
@@ -564,7 +564,7 @@ inside the `frontend` directory.
 
 # Deployment
 
-The frontend can be deployed using **Vercel**, while the FastAPI backend can be deployed separately.
+The frontend is deployed using **Vercel**, while the FastAPI backend is deployed using **Render**.
 
 The general architecture is:
 
@@ -591,7 +591,7 @@ After deployment, update the frontend API URL to point to the deployed backend.
 `https://waste-segregation-ai-frontend.vercel.app/`
 
 **Backend:**  
-`[<YOUR_BACKEND_URL>](https://waste-segregation-ai-tig8.onrender.com)`
+`https://waste-segregation-ai-tig8.onrender.com/`
 
 ---
 
