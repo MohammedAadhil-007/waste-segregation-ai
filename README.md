@@ -6,6 +6,9 @@
 **Backend:**  
 [https://waste-segregation-ai-tig8.onrender.com/](https://waste-segregation-ai-tig8.onrender.com/)
 
+> Note: Since the backend was deployed on **free version of Render** it will take a minute to awake the backend server for the first request, then it will be active and give instant response to all other requests
+.
+
 ---
 
 # Waste Segregation AI
