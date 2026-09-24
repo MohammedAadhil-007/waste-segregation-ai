@@ -1,5 +1,3 @@
-### Live Demo
-
 ## Live Demo
 
 **Frontend:**  
